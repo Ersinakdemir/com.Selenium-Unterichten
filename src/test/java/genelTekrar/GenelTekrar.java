@@ -126,6 +126,7 @@ public class GenelTekrar extends TestBase {
         //ikinciOption.click();
         WebElement preisElement3 = driver.findElement(By.xpath("//span[@class='a-price a-text-price a-size-medium apexPriceToPay']"));
         String preis3 =preisElement3.getText();
+        System.out.println(preis3);
 
         WebElement sepetEkle2 = driver.findElement(By.id("add-to-cart-button"));
         sepetEkle2.click();
