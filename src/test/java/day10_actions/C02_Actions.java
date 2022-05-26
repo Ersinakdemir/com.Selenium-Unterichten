@@ -19,5 +19,18 @@ public class C02_Actions extends TestBase {
         driver.findElement(By.xpath("//*[text()='Create a List']")).click();
         Thread.sleep(5000);// //*[text()='Create a List']
     }
+    //➢ doubleClick ( ): WebElement’e çift tıklama yapar
+    //
+    //➢ clickAndHold ( ): WebElement uzerinde click yapili
+    //olarak bizden komut bekler.
+    //
+    //➢ dragAndDrop ( ): WebElement’i bir noktadan diğerine
+    //sürükler ve bırakır
+    //
+    //➢ moveToElement ( ): Mouse’u istedigimiz WebElement’in
+    //uzerinde tutar
+    //
+    //➢ contextClick ( ): Mouse ile istedigimiz WebElement’e
+    //sag tiklama yapar.
 
 }
