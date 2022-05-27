@@ -1,4 +1,4 @@
-package genelTekrar;
+package day14_Excel.genelTekrar;
 
 import org.junit.Test;
 import org.openqa.selenium.By;

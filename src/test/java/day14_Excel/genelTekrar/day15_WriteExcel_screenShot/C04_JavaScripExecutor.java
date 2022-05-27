@@ -1,4 +1,4 @@
-package day15_WriteExcel_screenShot;
+package day14_Excel.genelTekrar.day15_WriteExcel_screenShot;
 
 import org.junit.Test;
 import org.openqa.selenium.By;

@@ -1,4 +1,4 @@
-package genelTekrar;
+package day14_Excel.genelTekrar;
 
 import junit.framework.TestCase;
 import org.junit.Test;

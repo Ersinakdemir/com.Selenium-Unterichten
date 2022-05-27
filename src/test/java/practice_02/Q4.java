@@ -61,9 +61,9 @@ public class Q4 {/*
         driver.get("https://www.teknosa.com/");
 
         ChromeOptions op =new ChromeOptions();
-
-        //WebElement searchArea = driver.findElement(By.xpath("//input[@id='search-input']"));
-        //searchArea.sendKeys("oppo"+ Keys.ENTER);
+        op.addArguments("disable-popup-blocking");
+        WebElement searchArea = driver.findElement(By.xpath("//input[@id='search-input']"));
+        searchArea.sendKeys("oppo"+ Keys.ENTER);
     }
 
 }

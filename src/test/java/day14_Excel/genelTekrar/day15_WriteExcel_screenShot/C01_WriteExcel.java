@@ -1,4 +1,4 @@
-package day15_WriteExcel_screenShot;
+package day14_Excel.genelTekrar.day15_WriteExcel_screenShot;
 
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
@@ -47,12 +47,22 @@ public class C01_WriteExcel {
                 .createCell(4)
                 .setCellValue(54000) ;
 
+        //
+        workbook
+                .getSheet("Sayfa1")
+                .getRow(0)
+                .createCell(5)
+                .setCellValue("Isim") ; // //5) Olusturdugumuz hucreye “Nufus” yazdiralim
+
+
         //9) Dosyayi kaydedelim
         FileOutputStream fos = new FileOutputStream(dosyaYolu);
         workbook.write(fos);
         //10)Dosyayi kapatalim
-        fis.close();
-        fos.close();
-        workbook.close();
+       // fis.close();
+        //fos.close();
+        //workbook.close();
+
+
     }
 }
